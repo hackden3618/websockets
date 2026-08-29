@@ -1,0 +1,18 @@
+{
+  "name": "websocket_chat_app",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "scripts": {
+      "client": "cd client && bun run dev",
+      "server": "cd server && bun run dev",
+      "scaffold_client": "cd client && bun install",
+      "scaffold_server": "cd server && bun install"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  }
+}
