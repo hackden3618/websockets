@@ -12,7 +12,8 @@ coverage
 
 #tutor mode for agents
 .agents
-learning
+*learning*
+Manware*
 
 # logs
 logs
