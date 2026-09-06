@@ -10,6 +10,10 @@ dist
 coverage
 *.lcov
 
+#tutor mode for agents
+.agents
+learning
+
 # logs
 logs
 _.log
